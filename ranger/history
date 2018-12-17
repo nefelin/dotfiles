@@ -1,0 +1,50 @@
+shell
+mv index.html_ folio.html
+mkdir static
+mkdir nma_spiders
+search ar
+search tar
+help link
+mkdir anatomy
+filter nude
+mkdir draped
+clear_filter
+filter draped
+mkdir costume
+filter costume
+mkdir clothed
+mkdir all_figure
+filter figure-nude
+filter figure
+mkdir hands
+mkdir head
+mkdir expressions
+filter expre
+hand
+filter hand
+filter
+filter head
+cd /Users/nefelin/Nextcloud/NMA/
+search test
+open_with 
+o
+touch tracks_db.py
+cd /Users/nefelin/bin/
+rename
+rename performances.py
+help
+e test.html
+delete
+set showhidden
+set show_hidden=True
+mkdir routes
+touch crmRoutes.ts
+search sql
+shell 
+search conf
+search .confi
+
+search .vim
+search .config
+q
+rename nvin.fish

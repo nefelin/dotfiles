@@ -1,0 +1,18 @@
+q
+/que falta qu
+/milonga
+set
+fset mp3=filename="*.mp3"
+set lib_sort=albumartist date
+prev-view
+pre-view
+bind common <key> prev-view
+help
+clear
+fset missing-tag=!stream&(artist=""|album=""|title=""|tracknumber=-1|date=-1)
+fset classical=genre="Classical"
+man
+help cmus-tutorial
+fset 90s=date>=1990&date<2000
+preview
+:
