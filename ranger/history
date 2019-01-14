@@ -1,4 +1,3 @@
-shell
 mv index.html_ folio.html
 mkdir static
 mkdir nma_spiders
@@ -34,7 +33,6 @@ rename
 rename performances.py
 help
 e test.html
-delete
 set showhidden
 set show_hidden=True
 mkdir routes
@@ -48,3 +46,5 @@ search .vim
 search .config
 q
 rename nvin.fish
+open_with vi
+delete

@@ -1,2 +1,4 @@
 **/plugged
 test.out
+libimobiledevice/
+*.pem
