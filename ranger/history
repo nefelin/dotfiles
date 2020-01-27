@@ -1,5 +1,3 @@
-mv index.html_ folio.html
-mkdir static
 mkdir nma_spiders
 search ar
 search tar
@@ -48,3 +46,5 @@ q
 rename nvin.fish
 open_with vi
 delete
+search src
+search DraftRx

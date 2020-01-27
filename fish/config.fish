@@ -2,6 +2,9 @@
 set -g -x PATH /usr/local/go/bin /Users/nefelin/go/bin $PATH
 set -xg GOPATH $HOME/go
 
+#nvim path recommendation
+set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
+
 # Python path stuff
 set -g -x PATH /Users/nefelin/Library/Python/3.6/bin $PATH
 
@@ -61,3 +64,8 @@ alias fc='eval $EDITOR ~/.config/fish/config.fish'
 alias nv='nvim'
 
 alias prp="pipenv run python"
+
+alias wd="cd ~/Documents/Covetrus/working_px/"
+
+alias ov="printf 19Z9MPpW6y | pbcopy"
+
