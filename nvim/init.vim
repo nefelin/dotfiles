@@ -12,14 +12,29 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-abolish'
 
 Plug 'mattn/emmet-vim'
+
+
+Plug 'dense-analysis/ale'
+
+
+" Installs deoplete.nvim:
+Plug 'Shougo/deoplete.nvim'
+" Installs tsuquyomi
+Plug 'Quramy/tsuquyomi'
+" Installs and builds vimproc (required to launch tsserver)
+Plug 'Shougo/vimproc.vim', {'do': 'make'}
+" Installs this source
+Plug 'rudism/deoplete-tsuquyomi'
 
 " language-specific 
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'fatih/vim-go'
 Plug 'leafgarland/typescript-vim'
+Plug 'palantir/tslint'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -162,4 +177,22 @@ if !has('nvim')
 	nnoremap - :<C-U>RangerChooser<CR>
 endif
 
+" FZF helper
+set rtp+=/usr/local/opt/fzf
 
+" Ale stuff
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'typescript': ['tsserver', 'tslint'],
+\   'vue': ['eslint']
+\}
+
+let g:ale_fixers = {
+\    'javascript': ['eslint'],
+\    'typescript': ['prettier'],
+\    'vue': ['eslint'],
+\    'scss': ['prettier'],
+\    'html': ['prettier']
+\}
+
+let g:ale_fix_on_save = 1

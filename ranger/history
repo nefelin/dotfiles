@@ -1,8 +1,3 @@
-mkdir nma_spiders
-search ar
-search tar
-help link
-mkdir anatomy
 filter nude
 mkdir draped
 clear_filter
@@ -46,5 +41,10 @@ q
 rename nvin.fish
 open_with vi
 delete
-search src
 search DraftRx
+search draft
+search draf
+search 
+search src
+search Draf
+scout -ftsea 

@@ -1,4 +1,4 @@
 #quick access to fish function overview
 function fishfunc
-	$EDITOR ~/.config/fish/functions/
+	cd ~/.config/fish/functions/
 end
