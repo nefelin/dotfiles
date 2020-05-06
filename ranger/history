@@ -1,8 +1,3 @@
-filter nude
-mkdir draped
-clear_filter
-filter draped
-mkdir costume
 filter costume
 mkdir clothed
 mkdir all_figure
@@ -45,6 +40,11 @@ search DraftRx
 search draft
 search draf
 search 
-search src
 search Draf
 scout -ftsea 
+e index.js
+edit keys.ts
+edit data.ts
+mkdir services
+search src
+cd components/

@@ -70,4 +70,6 @@ alias wd="cd ~/Documents/Covetrus/working_px/"
 alias ov="printf 19Z9MPpW6y | pbcopy"
 
 # Git aliases, better than functions for autocomplete
-alis gc="git checkout"
+alias gc="git checkout"
+
+alias rm="trash"
